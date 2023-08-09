@@ -4,11 +4,5 @@ permalink: .well-known/assetlinks.json
 ---
 
 [{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.kotlinblanktestapplication",
-    "sha256_cert_fingerprints":
-    ["F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"]
-  }
+  "someRandomJsonField": "haha, this isn't a valid DAL"
 }]
