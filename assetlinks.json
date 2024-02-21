@@ -3,37 +3,66 @@ layout: none
 permalink: .well-known/assetlinks.json
 ---
 
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.smallkotlin",
-    "sha256_cert_fingerprints":
-    ["F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.smallkotlin",
+      "sha256_cert_fingerprints": [
+        "F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ubercab",
+      "sha256_cert_fingerprints": [
+        "40:03:23:1A:B4:2F:EB:8D:95:5E:62:FD:FA:A4:FA:D5:95:67:05:4B:9C:6B:BC:3D:95:02:99:DD:FC:26:83:92"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.activityalias",
+      "sha256_cert_fingerprints": [
+        "F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.instantappmodule",
+      "sha256_cert_fingerprints": [
+        "F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dorelli.deeplinks",
+      "sha256_cert_fingerprints": [
+        "E1:07:EB:09:2E:11:22:E7:B1:4D:E6:39:17:7F:AA:9D:14:88:F3:36:AA:70:BE:17:22:2B:D9:72:84:9D:9F:16"
+      ]
+    }
   }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name":"com.ubercab",
-    "sha256_cert_fingerprints": ["40:03:23:1A:B4:2F:EB:8D:95:5E:62:FD:FA:A4:FA:D5:95:67:05:4B:9C:6B:BC:3D:95:02:99:DD:FC:26:83:92"]
-  }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.activityalias",
-    "sha256_cert_fingerprints": ["F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"]
-  }
-},
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.example.instantappmodule",
-    "sha256_cert_fingerprints":
-    ["F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"]
-  }
-}]
+]
