@@ -1,0 +1,96 @@
+---
+layout: none
+permalink: .well-known/assetlinks.json
+---
+
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.test1",
+      "sha256_cert_fingerprints":
+      ["14:B0:55:C0:0E:05:05:CA:CC:AE:76:0A:0C:EF:F7:8C:56:64:A0:C2:A0:59:B2:A8:18:D2:5E:6B:4C:EA:F2:95"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.secondmodule",
+      "sha256_cert_fingerprints":
+      ["14:B0:55:C0:0E:05:05:CA:CC:AE:76:0A:0C:EF:F7:8C:56:64:A0:C2:A0:59:B2:A8:18:D2:5E:6B:4C:EA:F2:95"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.kotlinwithdynamicfeature",
+      "sha256_cert_fingerprints": [
+        "14:B0:55:C0:0E:05:05:CA:CC:AE:76:0A:0C:EF:F7:8C:56:64:A0:C2:A0:59:B2:A8:18:D2:5E:6B:4C:EA:F2:95"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.kotlinblanktestapplication",
+      "sha256_cert_fingerprints": [
+        "14:B0:55:C0:0E:05:05:CA:CC:AE:76:0A:0C:EF:F7:8C:56:64:A0:C2:A0:59:B2:A8:18:D2:5E:6B:4C:EA:F2:95",
+        "25:CC:12:03:A5:36:36:5D:1A:98:A9:52:01:D7:6E:5A:39:EB:2B:64:0B:F6:BC:04:0D:A3:A3:BD:8A:CD:E2:B2"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.test1",
+      "sha256_cert_fingerprints": [
+        "14:B0:55:C0:0E:05:05:CA:CC:AE:76:0A:0C:EF:F7:8C:56:64:A0:C2:A0:59:B2:A8:18:D2:5E:6B:4C:EA:F2:95"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.activityalias",
+      "sha256_cert_fingerprints": [
+        "F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.instantappmodule",
+      "sha256_cert_fingerprints": [
+        "F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dorelli.deeplinks",
+      "sha256_cert_fingerprints": [
+        "E1:07:EB:09:2E:11:22:E7:B1:4D:E6:39:17:7F:AA:9D:14:88:F3:36:AA:70:BE:17:22:2B:D9:72:84:9D:9F:16",
+        "14:B0:55:C0:0E:05:05:CA:CC:AE:76:0A:0C:EF:F7:8C:56:64:A0:C2:A0:59:B2:A8:18:D2:5E:6B:4C:EA:F2:95",
+        "25:CC:12:03:A5:36:36:5D:1A:98:A9:52:01:D7:6E:5A:39:EB:2B:64:0B:F6:BC:04:0D:A3:A3:BD:8A:CD:E2:B2",
+        "F8:1D:47:A9:A1:FF:1D:57:2F:06:C6:F2:E0:BF:6F:C0:F5:2C:DD:33:64:B1:D8:43:51:FF:B2:B6:71:55:5A:9B",
+        "27:F2:0A:34:B1:AB:08:1E:18:A4:38:34:73:FF:02:D9:43:C2:48:8B:BE:BC:9F:AA:85:E1:D3:43:23:E6:32:07"
+      ]
+    }
+  }
+]
